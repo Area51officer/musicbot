@@ -26,7 +26,7 @@ def music_handler(update, context):
     song_name = update.message.text
     play_song(song_name)
 
-app = telegram.Bot(token="YOUR_TOKEN_HERE")
+app = telegram.Bot(token="6261454457:AAG4LK7d2XZLJ-5Wo5hShvUih6DZEkh78gw")
 app.add_handler(telegram.CommandHandler("play", music_handler))
 
 app.polling()
