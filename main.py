@@ -5,9 +5,9 @@ from spotipy.oauth2 import SpotifyOAuth
 
 def get_spotify_token():
     # Get the Spotify token.
-    client_id = "YOUR_CLIENT_ID_HERE"
-    client_secret = "YOUR_CLIENT_SECRET_HERE"
-    redirect_uri = "YOUR_REDIRECT_URI_HERE"
+    client_id = "ec26362ab399474493c07042a7ecb9b6"
+    client_secret = "524972946bec4284a638380c9e672361"
+    redirect_uri = "samkirakun"
     scope = "user-library-read,playlist-modify-public"
     token = SpotifyOAuth(client_id, client_secret, redirect_uri, scope)
     token.get_access_token()
